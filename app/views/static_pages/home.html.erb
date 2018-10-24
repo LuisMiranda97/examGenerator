@@ -1,0 +1,20 @@
+<body>
+<h1>Exam Generator</h1>
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+    <nav>
+        <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Inicio",   '#' %></li>
+        <li><%= link_to "Generar Examen",   static_pages_generateExam_path %></li>
+        <li><%= link_to "Agregar Reactivo", static_pages_addQuestion_path %></li>
+        <li><%= link_to "Mis Examenes", static_pages_myExams_path %></li>
+        <li><%= link_to "Modificar Reactivos", static_pages_modifyQuestion_path %></li>
+        <li><%= link_to "Users", users_path %></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<div class="container">
+    <%= yield %>
+</div>
+</body>
