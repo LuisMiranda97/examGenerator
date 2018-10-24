@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181024201551) do
+ActiveRecord::Schema.define(version: 20181024211739) do
 
   create_table "dynamics", force: :cascade do |t|
     t.integer "id_dynamic"
@@ -31,9 +31,12 @@ ActiveRecord::Schema.define(version: 20181024201551) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "materia", force: :cascade do |t|
-    t.integer "id_materia"
-    t.string "nombre_materia"
+  create_table "options", force: :cascade do |t|
+    t.integer "id_option"
+    t.integer "id_static"
+    t.boolean "isAnswer"
+    t.string "answer"
+    t.integer "id_dynamic"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
