@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181024194900) do
+ActiveRecord::Schema.define(version: 20181024201551) do
+
+  create_table "dynamics", force: :cascade do |t|
+    t.integer "id_dynamic"
+    t.integer "id_topic"
+    t.string "text"
+    t.integer "id_variable"
+    t.integer "id_option"
+    t.string "formula"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "exams", force: :cascade do |t|
     t.integer "id_exam"
@@ -23,6 +34,15 @@ ActiveRecord::Schema.define(version: 20181024194900) do
   create_table "materia", force: :cascade do |t|
     t.integer "id_materia"
     t.string "nombre_materia"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "statics", force: :cascade do |t|
+    t.integer "id_static"
+    t.integer "id_topic"
+    t.string "text"
+    t.integer "id_option"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
