@@ -1,0 +1,2 @@
+class DynamicsController < ApplicationController
+end
