@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181024201551) do
+ActiveRecord::Schema.define(version: 20181024211544) do
 
   create_table "dynamics", force: :cascade do |t|
     t.integer "id_dynamic"
@@ -27,13 +27,6 @@ ActiveRecord::Schema.define(version: 20181024201551) do
     t.integer "id_exam"
     t.integer "id_subject"
     t.string "name_exam"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "materia", force: :cascade do |t|
-    t.integer "id_materia"
-    t.string "nombre_materia"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -68,6 +61,16 @@ ActiveRecord::Schema.define(version: 20181024201551) do
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "variables", force: :cascade do |t|
+    t.integer "id_variable"
+    t.string "name_variable"
+    t.decimal "minimum"
+    t.decimal "maximum"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "id_dynamic"
   end
 
 end
