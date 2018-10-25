@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20181024211739) do
-=======
-ActiveRecord::Schema.define(version: 20181024211544) do
->>>>>>> 5742250beac9f3bbfe03820a47147204cc6db5af
+ActiveRecord::Schema.define(version: 20181025185430) do
 
   create_table "dynamics", force: :cascade do |t|
     t.integer "id_dynamic"
@@ -35,7 +31,6 @@ ActiveRecord::Schema.define(version: 20181024211544) do
     t.datetime "updated_at", null: false
   end
 
-<<<<<<< HEAD
   create_table "options", force: :cascade do |t|
     t.integer "id_option"
     t.integer "id_static"
@@ -46,8 +41,6 @@ ActiveRecord::Schema.define(version: 20181024211544) do
     t.datetime "updated_at", null: false
   end
 
-=======
->>>>>>> 5742250beac9f3bbfe03820a47147204cc6db5af
   create_table "statics", force: :cascade do |t|
     t.integer "id_static"
     t.integer "id_topic"
@@ -78,6 +71,12 @@ ActiveRecord::Schema.define(version: 20181024211544) do
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
   create_table "variables", force: :cascade do |t|
