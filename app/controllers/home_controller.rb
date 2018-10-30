@@ -14,5 +14,6 @@ class HomeController < ApplicationController
   def show_exams
   end
 
-  def show_reacts 
+  def show_reacts
+  end 
 end
