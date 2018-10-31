@@ -5,9 +5,16 @@
 
 .bg-2 { 
     background-color: #EFEFEF;
-    color: #ffffff;
+    color: #333;;
 }
 
+.btn-home {
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+    padding: 50px 0;
+    text-align: center;
+}
 .container-fluid-1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -22,7 +29,7 @@
 body {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #333;;
     background-color: #EFEFEF;
 }
 
