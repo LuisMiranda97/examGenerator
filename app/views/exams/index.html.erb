@@ -27,9 +27,9 @@
 <tbody>
 <% @exams.each do |exam| %>
   <tr>
-    <td><%= exam.id_exam %></td>
     <td><%= exam.name_exam %></td>
-    <td><%= exam.subject.name_subject %></td>
+    <td><%= exam.name_exam %></td>
+    <td><%= exam.name_exam %></td>
     <td><%= link_to 'Show', @exam %></td>
     <td><%= link_to 'Edit', edit_exam_path(exam) %></td>
     <td><%= link_to 'Destroy', exam, method: :delete,
