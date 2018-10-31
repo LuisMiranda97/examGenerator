@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181031023000) do
+ActiveRecord::Schema.define(version: 20181031220237) do
 
   create_table "dynamics", force: :cascade do |t|
     t.string "text"
@@ -36,11 +36,6 @@ ActiveRecord::Schema.define(version: 20181031023000) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "examtopics", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "options", force: :cascade do |t|
     t.boolean "isAnswer"
     t.string "answer"
@@ -50,6 +45,11 @@ ActiveRecord::Schema.define(version: 20181031023000) do
     t.integer "static_id"
     t.index ["dynamic_id"], name: "index_options_on_dynamic_id"
     t.index ["static_id"], name: "index_options_on_static_id"
+  end
+
+  create_table "reactives", force: :cascade do |t|
+    t.string "text"
+    t.integer "type", default: 0
   end
 
   create_table "statics", force: :cascade do |t|

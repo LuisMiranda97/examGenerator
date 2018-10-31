@@ -1,0 +1,2 @@
+class Reactive < ApplicationRecord
+end
