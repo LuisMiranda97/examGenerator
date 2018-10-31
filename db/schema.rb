@@ -10,13 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181031014301) do
+ActiveRecord::Schema.define(version: 20181031020656) do
 
   create_table "dynamics", force: :cascade do |t|
     t.string "text"
     t.string "formula"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "topic_id"
+    t.index ["topic_id"], name: "index_dynamics_on_topic_id"
   end
 
   create_table "exam_topics", force: :cascade do |t|
@@ -49,6 +51,8 @@ ActiveRecord::Schema.define(version: 20181031014301) do
     t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "topic_id"
+    t.index ["topic_id"], name: "index_statics_on_topic_id"
   end
 
   create_table "subjects", force: :cascade do |t|
