@@ -10,16 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181031220237) do
-
-  create_table "dynamics", force: :cascade do |t|
-    t.string "text"
-    t.string "formula"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.integer "topic_id"
-    t.index ["topic_id"], name: "index_dynamics_on_topic_id"
-  end
+ActiveRecord::Schema.define(version: 20181031225158) do
 
   create_table "exam_topics", force: :cascade do |t|
     t.integer "exam_id"
@@ -41,23 +32,16 @@ ActiveRecord::Schema.define(version: 20181031220237) do
     t.string "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "dynamic_id"
-    t.integer "static_id"
-    t.index ["dynamic_id"], name: "index_options_on_dynamic_id"
-    t.index ["static_id"], name: "index_options_on_static_id"
+    t.integer "reactive_id"
+    t.index ["reactive_id"], name: "index_options_on_reactive_id"
   end
 
   create_table "reactives", force: :cascade do |t|
     t.string "text"
     t.integer "type", default: 0
-  end
-
-  create_table "statics", force: :cascade do |t|
-    t.string "text"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "formula"
     t.integer "topic_id"
-    t.index ["topic_id"], name: "index_statics_on_topic_id"
+    t.index ["topic_id"], name: "index_reactives_on_topic_id"
   end
 
   create_table "subjects", force: :cascade do |t|
@@ -94,8 +78,8 @@ ActiveRecord::Schema.define(version: 20181031220237) do
     t.decimal "maximum"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "dynamic_id"
-    t.index ["dynamic_id"], name: "index_variables_on_dynamic_id"
+    t.integer "reactive_id"
+    t.index ["reactive_id"], name: "index_variables_on_reactive_id"
   end
 
 end
