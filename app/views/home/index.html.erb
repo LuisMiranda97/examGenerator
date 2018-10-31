@@ -5,8 +5,13 @@
 </div>
 
 <div class="container-fluid-2 bg-2 text-center">
-    <button href="#" class="btn btn-info btn-lg">Generar Examen</button>
+    
+    <%= link_to "Generar examen", new_exam_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
     <button href="#" class="btn btn-info btn-lg">Agregar Reactivo</button>
-    <button href="#" class="btn btn-info btn-lg">Mis Examenes</button>
+    <%= link_to "Mis examenes", exams_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
     <button href="#" class="btn btn-info btn-lg">Modificar Reactivos</button>
 </div>
+
+ 

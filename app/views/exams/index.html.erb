@@ -1,0 +1,42 @@
+<h1>Mis examenes</h1>
+
+<div class="d-flex flex-row-reverse">
+<%= link_to "+", new_exam_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+
+<%= link_to "Inicio", root_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+</div>
+
+<div class="container bg-2 text-center mt-5">
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"> * </th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Materia</th>
+      <th scope="col">Mostrar</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Borrar</th>
+      <th colspan="6"></th>
+    </tr>
+  </thead>
+
+<tbody>
+<% @exams.each do |exam| %>
+  <tr>
+    <td><%= exam.id_exam %></td>
+    <td><%= exam.name_exam %></td>
+    <td><%= exam.subject.name_subject %></td>
+    <td><%= link_to 'Show', @exam %></td>
+    <td><%= link_to 'Edit', edit_exam_path(exam) %></td>
+    <td><%= link_to 'Destroy', exam, method: :delete,
+                                     data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+</div>
+
+<br>
+
