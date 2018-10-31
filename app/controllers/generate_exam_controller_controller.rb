@@ -1,0 +1,2 @@
+class GenerateExamControllerController < ApplicationController
+end

@@ -1,3 +1,4 @@
 class Exam < ApplicationRecord
-	belongs_to :subject
+	has_many :exam_topics
+	has_many :topics, through: :exam_topics
 end
