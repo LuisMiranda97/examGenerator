@@ -1,3 +1,3 @@
 class Variable < ApplicationRecord
-	belongs_to :dynamic
+	belongs_to :reactive
 end
