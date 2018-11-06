@@ -64,11 +64,11 @@ class VariablesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_variable
-      @variable = variable.find(params[:id_variable])
+      @variable = Variable.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def variable_params
-      params.require(:variable).permit(:name_variable, :minimum, :maximum)
+      params.require(:variable).permit(:name_variable, :minimum, :maximum, :reactive_id)
     end
 end
