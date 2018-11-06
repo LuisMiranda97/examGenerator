@@ -1,2 +1,0 @@
-class GenerateExamControllerController < ApplicationController
-end
