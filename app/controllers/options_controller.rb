@@ -64,12 +64,12 @@ class OptionsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_option
-      @option = Option.find(params[:id_option])
+      @option = Option.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def option_params
-      params.require(:option).permit(:id_static, :id_topic, :text)
+      params.require(:option).permit(:isAnswer, :answer, :reactive_id)
     end
 end
 

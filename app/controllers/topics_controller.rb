@@ -64,12 +64,12 @@ class TopicsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
-      @topic = Topic.find(params[:id_topic])
+      @topic = Topic.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:topic).permit(:name_topic, :id_subject)
+      params.require(:topic).permit(:name_topic, :subject_id)
     end
 end
 
