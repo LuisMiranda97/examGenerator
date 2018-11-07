@@ -1,0 +1,2 @@
+module GogoHelper
+end

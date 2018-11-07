@@ -1,0 +1,2 @@
+class GogoController < ApplicationController
+end
