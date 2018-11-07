@@ -1,4 +1,4 @@
-class ReactiveController < ApplicationController
+class ReactivesController < ApplicationController
 	before_action :set_reactive, only: [:show, :edit, :update, :destroy]
 
   # GET /reactives
@@ -64,15 +64,11 @@ class ReactiveController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_reactive
-      @reactive = =Reactive.find(params[:id])
+      @reactive = Reactive.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def reactive_params
       params.require(:reactive).permit(:text, :type, :formula, :topic_id)
     end
-end
-
-
-
 end
