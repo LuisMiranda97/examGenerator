@@ -12,7 +12,7 @@
     <div class="col-sm">
       <%= simple_form_for @reactive do |f| %>
         <%= f.input :text, label: "Pregunta", placeholder: 'Contenido de pregunta', error: 'La pregunta es obligatoria' %>
-        <%= f.association :topic, label: "Topic", placeholder: 'Topic', error: 'El topic es obligatoria' %>
+        <%= f.input :topic, label: "Topic", placeholder: 'Topic', error: 'El topic es obligatoria' %>
         <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
       <% end %>
     </div>  
