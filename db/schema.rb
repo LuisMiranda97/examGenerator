@@ -16,6 +16,8 @@ ActiveRecord::Schema.define(version: 20181107001035) do
     t.string "name_exam"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "subject_id"
+    t.index ["subject_id"], name: "index_exams_on_subject_id"
   end
 
   create_table "options", force: :cascade do |t|
