@@ -10,16 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181031225158) do
-
-  create_table "exam_topics", force: :cascade do |t|
-    t.integer "exam_id"
-    t.integer "topic_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["exam_id"], name: "index_exam_topics_on_exam_id"
-    t.index ["topic_id"], name: "index_exam_topics_on_topic_id"
-  end
+ActiveRecord::Schema.define(version: 20181107001035) do
 
   create_table "exams", force: :cascade do |t|
     t.string "name_exam"
