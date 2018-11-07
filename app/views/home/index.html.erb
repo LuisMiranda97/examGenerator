@@ -4,12 +4,20 @@
 
 <div class="container-fluid-2 text-center">
     
-    <%= link_to "Generar examen", new_exam_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
-    <button href="#" class="btn btn-home btn-info btn-lg">Agregar Reactivo</button>
     <%= link_to "Mis examenes", exams_path,
       :class => "btn btn-home btn-info btn-lg", :method => :get %>
+
+    <%= link_to "Generar examen", new_exam_path,
+      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+
+    <%= link_to "Mis reactivos", reactives_path,
+      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+    
+    <%= link_to "Agregar reactivo", new_reactive_path,
+      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+
     <button href="#" class="btn btn-home btn-info btn-lg">Modificar Reactivos</button>
+
 </div>
 
  

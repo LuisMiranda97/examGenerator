@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181031225158) do
+ActiveRecord::Schema.define(version: 20181107002920) do
 
   create_table "exam_topics", force: :cascade do |t|
     t.integer "exam_id"
@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 20181031225158) do
 
   create_table "reactives", force: :cascade do |t|
     t.string "text"
-    t.integer "type", default: 0
+    t.integer "reactive_type", default: 0
     t.string "formula"
     t.integer "topic_id"
     t.index ["topic_id"], name: "index_reactives_on_topic_id"
