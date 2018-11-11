@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :exams
   resources :reactives
+  resources :subjects
+  resources :topics
   devise_for :users,
     controllers: {
       sessions: "users/sessions",
