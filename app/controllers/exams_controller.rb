@@ -65,11 +65,11 @@ class ExamsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_exam
-      @exam = Exam.find(params[:id_exam])
+      @exam = Exam.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def exam_params
-      params.require(:exam).permit(:id_subject, :name_exam)
+      params.require(:exam).permit(:subject_id, :name_exam)
     end
 end
