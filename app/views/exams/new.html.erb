@@ -12,7 +12,7 @@
     <div class="col-sm">
       <%= simple_form_for @exam do |f| %>
         <%= f.input :name_exam, label: "Nombre del examen", placeholder: 'Nombre del examen', error: 'El nombre es obligatorio' %>
-        <%= f.association :subject, label: "Materia", placeholder: 'Materia', error: 'La materia es obligatoria' %>
+        <%= f.association :subject, label_method: :name_subject, label: "Materia", placeholder: 'Materia', error: 'La materia es obligatoria' %>
         <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
       <% end %>
     </div>  
