@@ -13,24 +13,21 @@
 <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Nombre</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th scope="col">Materia</th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
-<tbody>
-<% @subjects.each do |subject| %>
-  <tr>
-    <td><%= subject.name_subject %></td>
-    <td><%= link_to 'Editar', edit_subject_path(subject) %></td>
-    <td><%= link_to 'Eliminar', subject, method: :delete,
-                                     data: { confirm: 'Estas seguro?' } %></td>
-  </tr>
-<% end %>
-</tbody>
+  <tbody>
+    <% @subjects.each do |subject| %>
+      <tr>
+        <td><%= subject.name_subject %></td>
+        <td><%= link_to 'Mostrar', subject %></td>
+        <td><%= link_to 'Editar', edit_subject_path(subject) %></td>
+        <td><%= link_to 'Eliminar', subject, method: :delete,
+                                        data: { confirm: 'Estas seguro?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
 </div>
-
-<br>
