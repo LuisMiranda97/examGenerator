@@ -1,24 +1,35 @@
-<h1>Topics</h1>
+<div class="container-fluid-1 bg-1 text-left">
+  <h1>Mis Temas</h1>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="4"></th>
-    </tr>
-  </thead>
+<div class="d-flex flex-row-reverse mt-4">
+  <%= link_to "Inicio", root_path, :class => "btn btn-info btn-lg mx-2" %>
 
-  <tbody>
+  <%= link_to 'Agregar Tema', new_topic_path, :class => "btn btn-info btn-lg mx-2" %>
+</div>
+
+<div class="container bg-2 text-center mt-5">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Tema</th>
+        <th scope="col">Materia</th>
+        <th scope="col">Mostrar</th>
+        <th scope="col">Editar</th>
+        <th scope="col">Borrar</th>
+      </tr>
+    </thead>
+
+    <tbody>
     <% @topics.each do |topic| %>
       <tr>
-        <td><%= topic.name_topic %>
-        <td><%= link_to 'Show', topic %></td>
-        <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
-        <td><%= link_to 'Destroy', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= topic.name_topic %></td>
+        <td><%= topic.subject.name_subject %></td>
+        <td><%= link_to 'Mostrar', topic %></td>
+        <td><%= link_to 'Editar', edit_topic_path(topic) %></td>
+        <td><%= link_to 'Eliminar', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Topic', new_topic_path %>
+    </tbody>
+  </table>
+</div>
