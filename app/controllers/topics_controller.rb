@@ -73,7 +73,3 @@ class TopicsController < ApplicationController
       params.require(:topic).permit(:name_topic, :subject_id)
     end
 end
-
-
-
-end

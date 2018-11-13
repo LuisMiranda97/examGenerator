@@ -1,4 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+Topic
+<%= @topic.name_topic %>
+
+Subject
+<%= @topic.subject.name_subject %>
+<br>
+
 <%= link_to 'Edit', edit_topic_path(@topic) %> |
 <%= link_to 'Back', topics_path %>
