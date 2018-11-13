@@ -11,7 +11,7 @@
   <div class="row">
     <div class="col-sm">
       <%= simple_form_for @reactive do |f| %>
-        <%= f.association :topic, collection: Topic.all, label: "Topic", placeholder: 'Topic', error: 'El topic es obligatoria' %>
+        <%= f.association :topic, collection: Topic.all, label_method: :name_topic, label: "Topic", placeholder: 'Topic', error: 'El topic es obligatoria' %>
         <%= f.input :text, label: "Pregunta", placeholder: 'Contenido de pregunta', error: 'La pregunta es obligatoria' %>
         <div class="row justify-content-center">
           <%= f.collection_radio_buttons :reactive_type, Reactive.reactive_types, :second, :first %>
