@@ -1,5 +1,14 @@
-<h1>New Topic</h1>
+<div class="container-fluid-1 bg-1 text-left">
+  <h1>Agregar tema</h1>
+</div>
 
-<%= render 'form', topic: @topic %>
+<div class="d-flex flex-row-reverse mt-4">
+<%= link_to "Inicio", root_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+<%= link_to "Mis temas", topics_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+</div>
 
-<%= link_to 'Back', topics_path %>
+<div class="container bg-2 text-center mt-5">
+  <%= render 'form', topic: @topic %>
+</div>

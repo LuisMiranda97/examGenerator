@@ -5,16 +5,28 @@
 <div class="container-fluid-2 text-center">
     
     <%= link_to "Mis examenes", exams_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-info btn-lg", :method => :get %>
 
     <%= link_to "Generar examen", new_exam_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-info btn-lg", :method => :get %>
 
     <%= link_to "Mis reactivos", reactives_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-info btn-lg", :method => :get %>
     
     <%= link_to "Agregar reactivo", new_reactive_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-info btn-lg", :method => :get %>
+
+    <%= link_to "Mis materias", subjects_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
+    
+    <%= link_to "Agregar materia", new_subject_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
+
+    <%= link_to "Mis temas", topics_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
+    
+    <%= link_to "Agregar tema", new_topic_path,
+      :class => "btn btn-info btn-lg", :method => :get %>
 </div>
 
  

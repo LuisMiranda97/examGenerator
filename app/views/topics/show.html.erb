@@ -1,9 +1,23 @@
-Topic
-<%= @topic.name_topic %>
+<div class="container-fluid-1 bg-1 text-left">
+  <h1>Agregar tema</h1>
+</div>
 
-Subject
-<%= @topic.subject.name_subject %>
-<br>
+<div class="d-flex flex-row-reverse mt-4">
+    <%= link_to "Inicio", root_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+    <%= link_to "Mis temas", topics_path,
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+    <%= link_to "Editar", edit_topic_path(@topic),
+      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+</div>
 
-<%= link_to 'Edit', edit_topic_path(@topic) %> |
-<%= link_to 'Back', topics_path %>
+<div class="container text-left p-5">
+    <p>
+        <strong>Materia:</strong>
+        <%= @topic.subject.name_subject %>
+    </p>
+    <p>
+        <strong>Tema:</strong>
+        <%= @topic.name_topic %>
+    </p>
+</div>
