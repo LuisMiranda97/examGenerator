@@ -18,10 +18,10 @@
         </div>
         <div row>
           <h5> Respuestas </h5>
-            <%= f.simple_fields_for(:options) do |option| %>
-              <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
-              <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
-            <% end %>
+          <%= f.simple_fields_for(:options) do |option| %>
+            <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
+            <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
+          <% end %>
         </div>
         <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
       <% end %>

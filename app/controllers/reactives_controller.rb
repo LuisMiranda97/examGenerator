@@ -1,4 +1,5 @@
 class ReactivesController < ApplicationController
+  before_action :authenticate_user!
 	before_action :set_reactive, only: [:show, :edit, :update, :destroy]
 
   # GET /reactives
@@ -15,6 +16,7 @@ class ReactivesController < ApplicationController
   # GET /reactives/new
   def new
     @reactive = Reactive.new
+    4.times { @reactive.options.build }
   end
 
   # GET /reactives/1/edit
@@ -69,6 +71,10 @@ class ReactivesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def reactive_params
-      params.require(:reactive).permit(:text, :reactive_type, :formula, :topic_id)
+      params.require(:reactive).permit(:text, :reactive_type, :formula, :topic_id, options_attributes: option_attributes)
+    end
+
+    def option_attributes
+      [:id, :answer, :isAnswer]
     end
 end
