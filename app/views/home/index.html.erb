@@ -2,29 +2,51 @@
   <h1>Exam Generator</h1>
 </div>
 
-<div class="container-fluid-2 text-center">
-    
-    <%= link_to "Mis Examenes", exams_path,
-      :class => "btn btn-home btn-info btn-lg" %>
+<div class="container text-center">
 
-    <%= link_to "Generar Examen", new_exam_path,
-      :class => "btn btn-home btn-info btn-lg" %>
+ <div class="row">
+  <div class="col-sm-6 mt-5">
+    <div class="card m-3 ">
+      <div class="card-body">
+        <h5 class="card-title">Exámenes</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="exams/" class="btn btn-info align-middle btn-card">Ver exámenes</a>
+        <a href="exams/new" class="btn btn-info align-middle btn-card">Crear exámenes</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mt-5">
+    <div class="card m-3">
+      <div class="card-body">
+        <h5 class="card-title">Reactivos</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="reactives/" class="btn btn-info align-middle btn-card">Ver reactivos</a>
+        <a href="exams/new" class="btn btn-info align-middle btn-card">Crear reactivos</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card m-3">
+      <div class="card-body">
+        <h5 class="card-title">Materias</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="subjects/" class="btn btn-info btn-card">Ver Materias</a>
+        <a href="subjects/new" class="btn btn-info btn-card">Crear Materias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card m-3">
+      <div class="card-body">
+        <h5 class="card-title">Temas</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-info btn-card">Ver temas</a>
+        <a href="#" class="btn btn-info btn-card">Crear temas</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <%= link_to "Mis Reactivos", reactives_path,
-      :class => "btn btn-home btn-info btn-lg" %>
-
-    <%= link_to "Agregar Reactivo", new_reactive_path,
-      :class => "btn btn-home btn-info btn-lg" %>
-
-    <%= link_to "Mis Materias", subjects_path,
-      :class => "btn btn-home btn-info btn-lg" %>
-    
-    <%= link_to "Agregar Materia", new_subject_path,
-      :class => "btn btn-home btn-info btn-lg" %>
-
-    <%= link_to "Mis Temas", topics_path,
-      :class => "btn btn-home btn-info btn-lg" %>
-
-    <%= link_to "Agregar Tema", new_topic_path,
-      :class => "btn btn-home btn-info btn-lg" %>
 </div>
