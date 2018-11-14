@@ -1,0 +1,864 @@
+commit c086e95770dea327912509db899c76f4563151aa
+Merge: caa2fa6 6a269fa
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Wed Nov 14 00:01:44 2018 -0600
+
+    Merge pull request #47 from LuisMiranda97/diana-filter
+    
+    Filtrar reactivos por temas y por materias
+
+commit 6a269fa5faa4331e4a6488034147c7411dd58b39
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Wed Nov 14 00:01:06 2018 -0600
+
+    Filtrar reactivos por temas y por materias
+
+commit caa2fa6eee69731249e2a8d35c7841960b0e97ae
+Merge: a7f25ac 4a196a8
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 22:04:54 2018 -0600
+
+    Merge pull request #46 from LuisMiranda97/diana-changes
+    
+    Name changes
+
+commit 4a196a8b263c52536dab869de688be4b245b12c3
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 22:04:09 2018 -0600
+
+    Name changes
+
+commit a7f25ac29df27f53c35c8f57ff9e2ed0f236583f
+Merge: c5db88b aaf8a72
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Tue Nov 13 21:23:24 2018 -0600
+
+    Merge pull request #45 from LuisMiranda97/home
+    
+    Subject card
+
+commit aaf8a7242af8c05d7d76848a1d32d5be358f2559
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 13 21:22:17 2018 -0600
+
+    Subject card
+
+commit c5db88bf2e7729e71f956bae73ff1f061ae82826
+Merge: 4c6c6c8 08f3749
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Tue Nov 13 21:17:44 2018 -0600
+
+    Merge pull request #44 from LuisMiranda97/home
+    
+    Home page
+
+commit 08f3749b47f4fdb5dad2397bdca8da6022470a91
+Merge: 4d5b64c 4c6c6c8
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Tue Nov 13 20:45:38 2018 -0600
+
+    Merge branch 'master' into home
+
+commit 4d5b64ca810481b4de283b5bcb587c6c0af0bf5e
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 13 20:43:21 2018 -0600
+
+    Home page
+
+commit 4c6c6c8ef26ec7bc6444805f51d42765ab9fb068
+Merge: e463356 b49ccfe
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 20:05:21 2018 -0600
+
+    Merge pull request #43 from LuisMiranda97/style-signup
+    
+    style in signup
+
+commit b49ccfeefa89b809091fdcb37b0934e9035b2fe5
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 20:03:38 2018 -0600
+
+    style in signup
+
+commit e463356942fee46b22a776456cb6a38b8fe1d828
+Merge: 2d6e7e5 ec85261
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:53:08 2018 -0600
+
+    Merge pull request #42 from LuisMiranda97/Filtrar
+    
+    Detalles
+
+commit ec852615fe32dd4ddd504839d30b2808d8d6faee
+Merge: 239457a 2d6e7e5
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:52:57 2018 -0600
+
+    Merge branch 'master' into Filtrar
+
+commit 239457a7edd14e7f357e0b49508e6a91c776fa98
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:50:30 2018 -0600
+
+    Detalles
+
+commit 2d6e7e543d3fb3f04abae418db93725ced8d5e99
+Merge: 85d7709 91b54ca
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 19:44:21 2018 -0600
+
+    Merge pull request #41 from LuisMiranda97/changes-buttons
+    
+    Changes in button
+
+commit 91b54ca58a4cabe6604906eb4110c9597bd44cc5
+Merge: 3b79303 85d7709
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 19:44:12 2018 -0600
+
+    Merge branch 'master' into changes-buttons
+
+commit 3b79303d7ffb0a005f12e0a39cc15848a96593e7
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 19:39:50 2018 -0600
+
+    Changes in button
+
+commit 85d7709357550f0d9c1b0117779e24b6e88e5b7d
+Merge: 1ee4f4c dfcaee3
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:30:45 2018 -0600
+
+    Merge pull request #40 from LuisMiranda97/Estilos
+    
+    Reactive views and style
+
+commit dfcaee3b75cabfa9cd9e8ee189b5806e0126cb0d
+Merge: 2ec4be8 1ee4f4c
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:30:37 2018 -0600
+
+    Merge branch 'master' into Estilos
+
+commit 2ec4be81cfe8e7e0c920ce7b0638d0ba4fe2349d
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 19:29:30 2018 -0600
+
+    Reactive views and style
+
+commit 1ee4f4cbb267b026ec81a511c3f3733de199c84f
+Merge: 9755828 536cf9a
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 18:41:19 2018 -0600
+
+    Merge pull request #39 from LuisMiranda97/order-style
+    
+    Changes in style
+
+commit 536cf9a7e7cf69e5a38435ce5d0df038d7f29ea5
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 18:41:02 2018 -0600
+
+    Changes in style
+
+commit 97558286eb051f255e20f8556364f4b1c26579ed
+Merge: 944b7a5 dbe197e
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 18:34:32 2018 -0600
+
+    Merge pull request #38 from LuisMiranda97/style-subject
+    
+    Change style of subjects
+
+commit dbe197eced1746e17cd5093c90f35b8ff534ca5f
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 18:34:08 2018 -0600
+
+    Change style of subjects
+
+commit 944b7a5ed176a21e41c039bae632b092f07d9f4f
+Merge: 784cf75 b3c631e
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 13 17:58:30 2018 -0600
+
+    Merge pull request #37 from LuisMiranda97/change-subject
+    
+    Changes in subject views
+
+commit b3c631e29b1eddd2bd7c0dd77177123d507329fa
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 13 17:58:03 2018 -0600
+
+    Changes in subject views
+
+commit 784cf7536c1c8652b8846ca1d60b4d8d1d43916f
+Merge: 5a4b5b3 f77bd4a
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 17:40:55 2018 -0600
+
+    Merge pull request #35 from LuisMiranda97/topic
+    
+    Vistas de temas
+
+commit f77bd4a79c1b9448e918363bdfb2783577414786
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 13 17:33:22 2018 -0600
+
+    Vistas de temas
+
+commit 5a4b5b38ac1a1b424bd5de5c35689bcdcfd1436e
+Merge: faa09a9 fda8a6c
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 20:07:29 2018 -0600
+
+    Merge pull request #34 from LuisMiranda97/some
+    
+    some other stuff
+
+commit fda8a6c0de4d1061daa14a88fb6262e6eda60f93
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 20:07:08 2018 -0600
+
+    some other stuff
+
+commit faa09a9e64b419758b1bc868ae2a0b1465262efc
+Merge: df194c6 c9c44f8
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 20:05:39 2018 -0600
+
+    Merge pull request #33 from LuisMiranda97/some
+    
+    some other things
+
+commit c9c44f8957b36a9360825fab42523f5621fb7a5c
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 20:04:41 2018 -0600
+
+    some other things
+
+commit df194c6ddf06f8e395cb1211661ca767f7293726
+Merge: 3a2692e cd4f520
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 19:54:18 2018 -0600
+
+    Merge pull request #32 from LuisMiranda97/some
+    
+    topics
+
+commit cd4f520003f50b36fcdbd42141e629d158a48296
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 19:53:48 2018 -0600
+
+    topics
+
+commit 3a2692eae508e478f67cbd7000bd8b4a77d4b231
+Merge: ec08a93 f71c898
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 19:35:58 2018 -0600
+
+    Merge pull request #31 from LuisMiranda97/create-reactives
+    
+    reactives
+
+commit f71c898511e93320381e5991787b38a64a502c0c
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 19:33:55 2018 -0600
+
+    reactives
+
+commit ec08a93dd585d71089fc8cd731ed3d2d91282178
+Merge: 2e520b1 5d4a35e
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 13:29:41 2018 -0600
+
+    Merge pull request #30 from LuisMiranda97/fix-devise
+    
+    fix devise model user
+
+commit 5d4a35e872be7b8f0532954df80f40a108401a10
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Mon Nov 12 13:29:04 2018 -0600
+
+    fix devise model user
+
+commit 2e520b17f51151225335a7e704220c72c0bfa689
+Merge: 4afb934 1d12eb9
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Sat Nov 10 20:36:34 2018 -0600
+
+    Merge pull request #29 from LuisMiranda97/add-subject
+    
+    Add subject
+
+commit 1d12eb96544fcac356f7e7ef01d5ea77c7bffbb7
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Sat Nov 10 20:35:35 2018 -0600
+
+    Add subject
+
+commit 4afb93455eb52b708c528bc9395dbc790b7d35d7
+Merge: cbe1286 a238e89
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Wed Nov 7 19:52:40 2018 -0600
+
+    Merge pull request #28 from LuisMiranda97/diana-login-view
+    
+    login view
+
+commit a238e8946cb1a8ea00546e562f36d8c0e2ec6342
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Wed Nov 7 19:51:35 2018 -0600
+
+    login view
+
+commit cbe12864ec66ca2be87b2cc995bf6943b1cc95a4
+Merge: 51d6d90 92a3749
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Wed Nov 7 17:53:39 2018 -0600
+
+    Merge pull request #27 from LuisMiranda97/table
+    
+    Table
+
+commit 92a3749031bd6ffa0fdb4ccf0a46cfffec66d8b2
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Wed Nov 7 17:52:48 2018 -0600
+
+    login
+
+commit 51d6d902da691a8227ba151816848cc9bb48bd61
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Wed Nov 7 15:16:58 2018 -0600
+
+    devise files
+
+commit 6e5b84b582a7a919d67b654e176151f9904eab78
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 6 20:14:33 2018 -0600
+
+    html reactive
+
+commit 8f0613ea647ce45ab26a569516a6dd30dd478798
+Merge: 84485e5 c2ddcb2
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 6 19:28:10 2018 -0600
+
+    Merge branch 'master' of https://github.com/LuisMiranda97/examGenerator
+
+commit 84485e52795e9044a31bfc69c14564d4c9cbe94b
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 6 19:27:16 2018 -0600
+
+    create new reagent
+
+commit c2ddcb2ad5ed07335a0e7c60577aba899b957317
+Merge: e6d5298 382ce3f
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 19:22:54 2018 -0600
+
+    Merge pull request #26 from LuisMiranda97/functions
+    
+    modified relations
+
+commit 382ce3f05c4b47ef3804cea2ba2d37b9d791416c
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 19:18:03 2018 -0600
+
+    modified relations
+
+commit e6d52980b0c5a9a4173c8c2032036523c0ebab3f
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Nov 6 19:11:21 2018 -0600
+
+    reagent table
+
+commit 9a95a8ea0ef804ba3e2471e62c6f250ad34b3f1f
+Merge: aa8192f 703b368
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 6 18:45:50 2018 -0600
+
+    Merge pull request #25 from LuisMiranda97/diana-edit
+    
+    change name of button
+
+commit 703b36879ee38269c5937ff610e66ec45e6613d3
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 6 18:45:21 2018 -0600
+
+    change name of button
+
+commit aa8192f1b3016e979c8149a82959de841e983cae
+Merge: 837b58e ed520a4
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 6 18:37:03 2018 -0600
+
+    Merge pull request #24 from LuisMiranda97/reactive-view
+    
+    linked reactive views
+
+commit ed520a46a562c248cb70d7973c304f7a25486583
+Merge: 0cd9797 837b58e
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 6 18:36:54 2018 -0600
+
+    Merge branch 'master' into reactive-view
+
+commit 0cd9797c738af6ec1d1abede2c7ea2b5b722cfa6
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 6 18:32:14 2018 -0600
+
+    linked reactive views
+
+commit 837b58eaff50b9e0ba4583f4222edb1e91fdc58b
+Merge: 92f8e33 5d169c0
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 6 18:31:11 2018 -0600
+
+    Merge pull request #23 from LuisMiranda97/GenerateExamView
+    
+    Generate Exam view
+
+commit 5d169c0ec4b5cd1cea80a949bc1f48e71e2443ca
+Merge: 4f12c3a 92f8e33
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 6 18:31:01 2018 -0600
+
+    Merge branch 'master' into GenerateExamView
+
+commit 4f12c3a24e982469efd58808f385860a73c3b3df
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Nov 6 18:27:35 2018 -0600
+
+    Generate Exam view
+
+commit 92f8e338bb9e2a497d51c2ede5e018899dbf6b3d
+Merge: d6bd2ad 7021b91
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 18:19:28 2018 -0600
+
+    Merge pull request #22 from LuisMiranda97/modify-database
+    
+    examtopics deleted
+
+commit 7021b91d8c4326cce2d8006a0fd07786ba7f86a7
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 18:17:42 2018 -0600
+
+    examtopics deleted
+
+commit d6bd2ad93840946e247310ddbe8e682799844e35
+Merge: 2e12a0c 0c978bf
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Nov 6 17:57:03 2018 -0600
+
+    Merge pull request #21 from LuisMiranda97/diana-views
+    
+    added reactives views
+
+commit 0c978bfff2861fc376b0e44dcfc0ba3f351228e6
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Nov 6 17:56:22 2018 -0600
+
+    added reactives views
+
+commit 2e12a0cdcb303fd49fbd252a6d0dd73790b59f76
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 17:46:38 2018 -0600
+
+    reactive relationships
+
+commit a1d3e9a884fc889d2ea408aa475f8e569d6f4c4c
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 17:41:52 2018 -0600
+
+    delete generate exam
+
+commit 188f09b48b3f640705ead005bcd7bbdb118ff26e
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 17:40:21 2018 -0600
+
+    name change
+
+commit a711ea0a7d8e6c54e5b107b8ee8b5289f5c030e0
+Merge: 51b39ad c697de2
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 17:31:54 2018 -0600
+
+    Merge pull request #20 from LuisMiranda97/functionality
+    
+    controller reactive
+
+commit c697de28fca0dd5252ec9030506a50bc73300d20
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Nov 6 17:30:10 2018 -0600
+
+    controller reactive
+
+commit 51b39ad9a2e5a193876d951760229e43ce06f402
+Merge: 7094e27 fbd52cf
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 31 16:54:43 2018 -0600
+
+    Merge pull request #19 from LuisMiranda97/db
+    
+    References to reactive
+
+commit fbd52cf647346b2b69feb38a9212bab7ff9d1d55
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 31 16:53:54 2018 -0600
+
+    References to reactive
+
+commit 7094e2746578cdccb6d829e53c80ea198f0f26df
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 31 16:39:57 2018 -0600
+
+    Fixed new tables with mis examenes
+
+commit 14cc1e07898e26065d8e4ea04af9b696c504d5b5
+Merge: fd09166 6edafe9
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Wed Oct 31 16:33:05 2018 -0600
+
+    Merge pull request #18 from LuisMiranda97/diana-css
+    
+    Added css
+
+commit 6edafe91c50346b887936f5b5f61ea48f0c91379
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Wed Oct 31 16:31:18 2018 -0600
+
+    Added css
+
+commit fd0916666778a7613e2ad8579fb3fa054f6c4f78
+Merge: dcb41cf 49b157c
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 31 16:27:01 2018 -0600
+
+    la cague
+
+commit dcb41cf8e3cd790ad1cf1094686c16d51493bdcf
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 31 16:17:06 2018 -0600
+
+    Reactive table
+
+commit 49b157c872504c8b5c8db191f58081ea46662f95
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 31 15:30:16 2018 -0600
+
+    Home css
+
+commit e2bb74ad33fcd20d0d719fba82621822b615cf22
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 31 15:08:01 2018 -0600
+
+    Deleted home css
+
+commit 9958f6f00b2de70970cc518cd08b78f7635fc913
+Merge: 34bfdad 3be5eb7
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Wed Oct 31 15:06:03 2018 -0600
+
+    Merge pull request #17 from LuisMiranda97/diana-simple-form-generarexamenes
+    
+    simple form
+
+commit 3be5eb78a582f43b3512944e1bd91b58a9d396a9
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Wed Oct 31 15:05:16 2018 -0600
+
+    simple form
+
+commit 34bfdad8098e6c5c621836f1d466cb0d0d9ab3b0
+Merge: 80a1253 1f3c232
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 20:34:28 2018 -0600
+
+    Merge pull request #16 from LuisMiranda97/database
+    
+    Alicia pon atencion
+
+commit 1f3c2329a172d1a0d0c35f252042300d3db267e8
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 20:32:58 2018 -0600
+
+    Alicia pon atencion
+
+commit 80a12535de8c8c52b1f59ace190155b945bbca08
+Merge: 8c6da4e 73bf279
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Oct 30 20:07:18 2018 -0600
+
+    Merge pull request #15 from LuisMiranda97/diana-view-generarexamenes
+    
+    Add simple form to new exam
+
+commit 73bf279fc4fcb6084728c7105d43753bb907c2ca
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Oct 30 20:06:46 2018 -0600
+
+    Add simple form to new exam
+
+commit 8c6da4e4597b60156ff63a36fee92ce5d728626e
+Merge: 98f51e9 e15f4c7
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 19:51:25 2018 -0600
+
+    Merge pull request #14 from LuisMiranda97/dbchanges
+    
+    DB major key
+
+commit e15f4c70b84d49f926929a4daebc8273f58b3483
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 19:50:36 2018 -0600
+
+    DB major key
+
+commit 98f51e91873b7fa554c124a3505a68d5cfbbaae7
+Merge: 8b3eb94 a994749
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 19:26:19 2018 -0600
+
+    Merge pull request #13 from LuisMiranda97/home-controller
+    
+    css
+
+commit a994749d587f0d1cbaae4d79b039856531576d42
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 19:25:29 2018 -0600
+
+    css
+
+commit 8b3eb94192c25d4bd0a34274c42e09f8f547720a
+Merge: e73484d 2d1c653
+Author: Diana Barrios <dianabarriosmacias@gmail.com>
+Date:   Tue Oct 30 19:19:59 2018 -0600
+
+    Merge pull request #12 from LuisMiranda97/diana-mis_examenes
+    
+    views for new and index exams
+
+commit 2d1c65314745ec549972a716004d12eb986835be
+Author: Diana Barrios <diana.barrios@Dianas-MacBook-Pro.local>
+Date:   Tue Oct 30 19:19:09 2018 -0600
+
+    views for new and index exams
+
+commit e73484de437fc6fbe45f2edd68f03da637dad063
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Tue Oct 30 19:13:52 2018 -0600
+
+    simple form
+
+commit 6013906de9d6fa97cb8969175a44e63608a9f625
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 17:15:53 2018 -0600
+
+    Fixed def show reacts
+
+commit 0d5b1b8516b20bc0ab6824c71586be8f080256fb
+Merge: 467b2fd 0378bcf
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 17:13:14 2018 -0600
+
+    Merge pull request #11 from LuisMiranda97/home-view
+    
+    Added home view
+
+commit 0378bcf0fc09385c60235a1b08a8d2e11c71077e
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 17:11:40 2018 -0600
+
+    Added home view
+
+commit d3519b5e0cc0f996a50a2e08d48d0206ec4cc7f0
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 17:10:55 2018 -0600
+
+    Added home view
+
+commit 467b2fd8420a0bf5e189a49044eceb1ee03b7b46
+Merge: da13b6e ed57967
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 17:09:35 2018 -0600
+
+    Merge pull request #10 from LuisMiranda97/controller-methods
+    
+    Basic methods for model controllers
+
+commit ed579675cf2e372c9d4915c27241fed6203859e4
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Tue Oct 30 16:47:32 2018 -0600
+
+    Basic methods for model controllers
+
+commit da13b6e5f7b275e5c0a2cb68cfb70a2b5fff3534
+Merge: f9e5da7 2a15966
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 16:38:05 2018 -0600
+
+    Merge pull request #9 from LuisMiranda97/home-view
+    
+    Added bootstrap
+
+commit 2a1596650ef32a840a4f0ea82db3d604c604265f
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Tue Oct 30 16:37:18 2018 -0600
+
+    Added bootstrap
+
+commit f9e5da78ad71ab3db7630829090b0cf07bd906eb
+Merge: 234115a e82d1da
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Thu Oct 25 14:25:18 2018 -0500
+
+    Merge pull request #8 from LuisMiranda97/devise
+    
+    Adds devise & home controller
+
+commit e82d1da4737a3ff85f79250a935b5ad4cebdcaf3
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Thu Oct 25 14:24:05 2018 -0500
+
+    adds devise & home controller
+
+commit 234115a39f8206b99108a75b7e4f683fcc01e2e2
+Merge: 00e5c6b ad4ac3e
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 17:11:42 2018 -0500
+
+    Merge branch 'master' of https://github.com/LuisMiranda97/examGenerator
+
+commit 00e5c6bed59d2c941e560cc2db8bef8277f4f1d1
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 17:11:30 2018 -0500
+
+    Added static pages
+
+commit ad4ac3eb5d8ac62b58172f2b1cb43a27daa4ace8
+Merge: 6c2610f 0af3fa3
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 17:04:01 2018 -0500
+
+    Merge pull request #5 from LuisMiranda97/relationships
+    
+    Options relationship
+
+commit 6c2610f863ff82fcab5be5d664cc648ec0b41a70
+Merge: e5ee5b2 251f037
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Wed Oct 24 17:03:13 2018 -0500
+
+    Merge pull request #7 from LuisMiranda97/controllers
+    
+    controllers
+
+commit 251f0374aa8e5ab10b36d7ad03b84d9dc7b9fad0
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Wed Oct 24 17:02:19 2018 -0500
+
+    controllers
+
+commit 0af3fa33d19e8455a769c00df8df5d3cd67661c7
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 17:01:02 2018 -0500
+
+    Options relationship
+
+commit e5ee5b23aade432b838bf8804180d3b3758c5e36
+Merge: e4614e0 fb8f8de
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Wed Oct 24 16:49:38 2018 -0500
+
+    Merge pull request #4 from LuisMiranda97/modelos1
+    
+    Modelos1
+
+commit fb8f8decf5ced7ca8fcee587853b8cba55508ee7
+Merge: 330fdc6 5742250
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Wed Oct 24 16:46:46 2018 -0500
+
+    Options
+
+commit e4614e0865e6d9983c716a4ef14580a6d1bec45b
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 16:42:40 2018 -0500
+
+    Deleted home controller
+
+commit 330fdc6e4cd82ef46cf4f4faa156a0c09195ff9b
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Wed Oct 24 16:39:26 2018 -0500
+
+    Option - model
+
+commit 164f4adbdc86bdd15a192c8269dfd9b1e6aa395e
+Merge: ebaa6db 5742250
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 16:34:37 2018 -0500
+
+    Merge pull request #2 from LuisMiranda97/modelos1
+    
+    First models
+
+commit ebaa6db87e9c71eb6ecbd6a1e1cfb1f50622b0e0
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 16:33:34 2018 -0500
+
+    Added users link
+
+commit 5742250beac9f3bbfe03820a47147204cc6db5af
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 16:31:25 2018 -0500
+
+    Modelos 2
+
+commit 2f6c361141ec2d7ad262b81e3698c1582a39a799
+Merge: 989265e 60b957d
+Author: Luis Gerardo Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 16:10:49 2018 -0500
+
+    Merge pull request #3 from LuisMiranda97/ViewHome
+    
+    Added home view
+
+commit 60b957dbde69ea2aa1b19068740747f8d895e9a8
+Author: Luis Bravo <luis.g.bravo1@gmail.com>
+Date:   Wed Oct 24 16:09:36 2018 -0500
+
+    Added home view
+
+commit 830fa90c87c51f000639eb595434775ce200cc04
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 15:27:05 2018 -0500
+
+    Modelos reactivos
+
+commit b3ec96d2d17306dc466b664dbe8e1513ff9516a3
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Wed Oct 24 14:59:54 2018 -0500
+
+    First models
+
+commit 989265e396fc1fee181e48fc37d3b1bb26a16cbe
+Merge: 3864f3d 7ace412
+Author: Alicia Cisneros <a01281991@itesm.mx>
+Date:   Thu Oct 18 22:27:02 2018 -0500
+
+    Merge pull request #1 from LuisMiranda97/modeling-users
+    
+    users
+
+commit 7ace412fc05b7005db01e36832097254de34dc59
+Author: aliciacisnerosm <aliciacisnerosm@gmail.com>
+Date:   Thu Oct 18 22:15:51 2018 -0500
+
+    users
+
+commit 3864f3d4f86d1c2180be8b133699b0038a02e0df
+Author: Luis Felipe Miranda <luisfmiranda97@gmail.com>
+Date:   Sat Sep 22 15:18:00 2018 -0500
+
+    First commit
