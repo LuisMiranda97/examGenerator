@@ -5,19 +5,26 @@
 <div class="container-fluid-2 text-center">
     
     <%= link_to "Mis Examenes", exams_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-home btn-info btn-lg" %>
 
     <%= link_to "Generar Examen", new_exam_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-home btn-info btn-lg" %>
 
     <%= link_to "Mis Reactivos", reactives_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
-    
-    <%= link_to "Mis Temas", topics_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
+      :class => "btn btn-home btn-info btn-lg" %>
 
     <%= link_to "Agregar Reactivo", new_reactive_path,
-      :class => "btn btn-home btn-info btn-lg", :method => :get %>
-</div>
+      :class => "btn btn-home btn-info btn-lg" %>
 
- 
+    <%= link_to "Mis materias", subjects_path,
+      :class => "btn btn-home btn-info btn-lg" %>
+    
+    <%= link_to "Agregar materia", new_subject_path,
+      :class => "btn btn-home btn-info btn-lg" %>
+
+    <%= link_to "Mis Temas", topics_path,
+      :class => "btn btn-home btn-info btn-lg" %>
+
+    <%= link_to "Agregar Tema", new_topic_path,
+      :class => "btn btn-home btn-info btn-lg" %>
+</div>

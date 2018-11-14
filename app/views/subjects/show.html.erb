@@ -3,17 +3,29 @@
 </div>
 
 <div class="d-flex flex-row-reverse mt-4">
-    <%= link_to "Agregar materia", new_subject_path, 
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
-    <%= link_to "Mis materias", subjects_path,
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
-    <%= link_to "Inicio", root_path,
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+    <%= link_to "Inicio", root_path, :class => "btn btn-info btn-lg mx-2" %>
+    
+    <%= link_to "Mis materias", subjects_path, :class => "btn btn-info btn-lg mx-2" %>
+    
+    <%= link_to "Editar", edit_subject_path(@subject), :class => "btn btn-info btn-lg mx-2" %>
 </div>
 
-<div class="container text-left p-5">
-    <p>
-        <strong>Nombre:</strong>
-        <%= @subject.name_subject %>
-    </p>
+<div class="container bg-2 text-center mt-5">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Materia</th>
+        <th scope="col">Editar</th>
+        <th scope="col">Borrar</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><%= @subject.name_subject %></td>
+        <td><%= link_to 'Editar', edit_subject_path(@subject) %></td>
+        <td><%= link_to 'Eliminar', @subject, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
