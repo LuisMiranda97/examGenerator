@@ -35,6 +35,9 @@ gem 'devise'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'cocoon'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

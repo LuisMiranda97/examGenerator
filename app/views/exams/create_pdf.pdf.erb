@@ -1,0 +1,14 @@
+<h1><%= @exam.name_exam %></h1>
+
+<% @reactives.each do |reactive| %>
+  <%= reactive.text%>
+  <br>
+  <% reactive.options.each do |option| %>
+    <%= option.answer %>
+    <br>
+  <% end %>
+  <br>
+<% end %>
+
+  
+ 

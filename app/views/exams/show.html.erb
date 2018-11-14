@@ -25,6 +25,7 @@
       <tr>
         <td><%= @exam.name_exam %></td>
         <td><%= @exam.subject.name_subject %></td>
+        <td><%= link_to 'Crear Pdf', create_pdf_exam_path(@exam, format: :pdf) %></td>
         <td><%= link_to 'Editar', edit_exam_path(@exam) %></td>
         <td><%= link_to 'Eliminar', @exam, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
       </tr>

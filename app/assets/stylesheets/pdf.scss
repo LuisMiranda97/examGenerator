@@ -1,0 +1,13 @@
+tr {
+    border-bottom: solid;
+    border-width: 3px;
+}
+
+table, tr, th, th, tbody, thead, tfoot {
+    page-break-inside: avoid !important;
+}
+
+body {
+    font: 60px "Montserrat", sans-serif;
+    line-height: 1.8;
+}
