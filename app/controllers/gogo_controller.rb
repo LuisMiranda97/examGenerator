@@ -1,2 +1,0 @@
-class GogoController < ApplicationController
-end
