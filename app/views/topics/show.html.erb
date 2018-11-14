@@ -26,7 +26,7 @@
         <td><%= @topic.name_topic %></td>
         <td><%= @topic.subject.name_subject %></td>
         <td><%= link_to 'Editar', edit_topic_path(@topic) %></td>
-        <td><%= link_to 'Eliminar', @topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Eliminar', @topic, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
       </tr>
     </tbody>
   </table>
