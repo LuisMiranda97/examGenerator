@@ -1,5 +1,5 @@
 <div class="container-fluid-1 bg-1 text-left">
-  <h1>Materia <%= @subject.id %></h1>
+  <h1><%= @subject.name_subject %></h1>
 </div>
 
 <div class="d-flex flex-row-reverse mt-4">
@@ -14,18 +14,30 @@
   <table class="table table-hover">
     <thead>
       <tr>
-        <th scope="col">Materia</th>
+        <th scope="col">Tema</th>
+        <th scope="col">Pregunta</th>
+        <th scope="col">Formula</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Mostrar</th>
         <th scope="col">Editar</th>
         <th scope="col">Eliminar</th>
       </tr>
     </thead>
 
     <tbody>
-      <tr>
-        <td><%= @subject.name_subject %></td>
-        <td><%= link_to 'Editar', edit_subject_path(@subject) %></td>
-        <td><%= link_to 'Eliminar', @subject, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
-      </tr>
+    <% @subject.topics.each do |topic| %>
+      <% topic.reactives.each do |reactive| %>
+        <tr>
+          <td><%= topic.name_topic %></td>
+          <td><%= reactive.text %></td>
+          <td><%= reactive.formula %></td>
+          <td><%= reactive.reactive_type %></td>
+          <td><%= link_to 'Mostrar', reactive %></td>
+          <td><%= link_to 'Editar', edit_reactive_path(reactive) %></td>
+          <td><%= link_to 'Eliminar', reactive, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
+        </tr>
+      <% end %>
+    <% end %>
     </tbody>
   </table>
 </div>
