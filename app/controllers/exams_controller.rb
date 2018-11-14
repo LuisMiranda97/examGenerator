@@ -40,6 +40,11 @@ class ExamsController < ApplicationController
 
   def create_pdf
     @reactives = @exam.create_reactives
+    respond_to do |format|
+      format.html
+      format.json
+      format.pdf { render template: 'exams/create_pdf', pdf: "Exam", layout: "pdf.html" }
+    end
   end
 
   # PATCH/PUT /exams/1
