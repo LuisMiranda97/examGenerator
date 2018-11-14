@@ -13,16 +13,16 @@
         <th>Eliminar</th>
       </tr>
     </thead>
-    <tbody class='topics'>
-      <%= f.simple_fields_for :topics do |builder| %>
-        <%= render 'topic_fields', f: builder %>
+    <tbody class='topics_exam'>
+      <%= f.simple_fields_for :topics_exam do |builder| %>
+        <%= render 'topics_exam_fields', f: builder %>
         <% end %>
     </tbody>
   </table>
 
   <div class="form-actions">
-    <%= link_to_add_association 'Agregar Tema', f, :topics, class: 'btn btn-info btn-lg mx-2', data: {
-      association_insertion_node: '.topics', association_insertion_method: :append } %>
+    <%= link_to_add_association 'Agregar Tema', f, :topics_exam, class: 'btn btn-info btn-lg mx-2', data: {
+      association_insertion_node: '.topics_exam', association_insertion_method: :append } %>
     <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
   </div>
 <% end %>
