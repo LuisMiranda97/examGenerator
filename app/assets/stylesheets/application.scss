@@ -1,3 +1,15 @@
  @import 'bootstrap';
  @import 'scaffolds';
  @import 'home';
+
+ .btn-info {
+	 color:#fff;
+	 background-color:#80CBC4;
+	 border-color:#80CBC4;
+ }
+
+ .btn-info:hover{
+	 color:#fff;
+	 background-color:#80CBC4;
+	 border-color:#80CBC4
+ }
