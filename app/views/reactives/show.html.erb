@@ -34,8 +34,12 @@
         <td><%= @reactive.reactive_type %></td>
         <td><%= @reactive.formula %></td>
         <% @reactive.options.each do |option| %>
-                <td><%= option.answer %></td>
-            <% end %>
+          <% if option.isAnswer? %>
+            <td><strong><%= option.answer %></strong></td>
+            <% else %>
+            <td><%= option.answer %></td>
+          <% end %>
+        <% end %>
         <td><%= link_to 'Editar', edit_reactive_path(@reactive) %></td>
         <td><%= link_to 'Eliminar', @reactive, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
       </tr>
