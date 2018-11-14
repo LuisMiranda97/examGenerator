@@ -1,0 +1,33 @@
+<div class="container-fluid-1 bg-1 text-left">
+  <h1><%= @exam.name_exam %></h1>
+</div>
+
+<div class="d-flex flex-row-reverse mt-4">
+  <%= link_to "Inicio", root_path, :class => "btn btn-info btn-lg mx-2" %>
+  
+  <%= link_to "Mis examens", exams_path, :class => "btn btn-info btn-lg mx-2" %>
+
+  <%= link_to "Crear nuevo examen", new_exam_path, :class => "btn btn-info btn-lg mx-2" %>
+</div>
+
+<div class="container bg-2 text-center mt-5">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Materia</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><%= @exam.name_exam %></td>
+        <td><%= @exam.subject.name_subject %></td>
+        <td><%= link_to 'Editar', edit_exam_path(@exam) %></td>
+        <td><%= link_to 'Eliminar', @exam, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

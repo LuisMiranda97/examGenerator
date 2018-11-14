@@ -1,0 +1,29 @@
+<%= simple_form_for @exam do |f| %>
+  <div class="form-inputs">
+    <%= f.input :name_exam, label: "Nombre del examen", placeholder: 'Nombre del examen', error: 'El nombre es obligatorio' %>
+    <%= f.association :subject, label_method: :name_subject, label: "Materia", placeholder: 'Materia', error: 'La materia es obligatoria' %>
+  </div>
+  <h4>Reactivos</h4>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Tema</th>
+        <th>Numero de reactivos<th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody class='topics'>
+      <%= f.simple_fields_for :topics do |builder| %>
+        <%= render 'topic_fields', f: builder %>
+        <% end %>
+    </tbody>
+  </table>
+
+  <div class="form-actions">
+    <%= link_to_add_association 'Agregar Tema', f, :topics, class: 'btn btn-info btn-lg mx-2', data: {
+      association_insertion_node: '.topics', association_insertion_method: :append } %>
+    <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
+  </div>
+<% end %>
+
+<br>
