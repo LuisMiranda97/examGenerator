@@ -1,13 +1,35 @@
-<h1><%= @exam.name_exam %></h1>
+<h1 style="text-align:center"><%= @exam.name_exam %></h1>
+<div>
+  <h4>Nombre: _____________________________&nbsp;&nbsp;Matricula: ______________
+    &nbsp;&nbsp;Fecha: ______________</h4>
+</div>
 
-<% @reactives.each do |reactive| %>
+<hr>
+
+<% @reactives.each_with_index do |reactive, index| %>
+  <%= index+1 %>
+  .-
   <%= reactive.text%>
   <br>
-  <% reactive.options.each do |option| %>
-    <%= option.answer %>
-    <br>
-  <% end %>
-  <br>
+  <div class="a">
+    <% reactive.options.each_with_index do |option, index1| %>
+      <% if index1 == 0 %>
+        a)
+      <% end %>
+      <% if index1 == 1 %>
+        b)
+      <% end %>
+      <% if index1 == 2 %>
+        c)
+      <% end %>
+      <% if index1 == 3 %>
+        d)
+      <% end %>
+      <%= option.answer %>
+      <br>
+    <% end %>
+  </div>
+  <hr>
 <% end %>
 
   
