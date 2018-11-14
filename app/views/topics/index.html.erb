@@ -14,9 +14,9 @@
       <tr>
         <th scope="col">Tema</th>
         <th scope="col">Materia</th>
-        <th scope="col">Mostrar</th>
-        <th scope="col">Editar</th>
-        <th scope="col">Borrar</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
       </tr>
     </thead>
 
@@ -27,7 +27,7 @@
         <td><%= topic.subject.name_subject %></td>
         <td><%= link_to 'Mostrar', topic %></td>
         <td><%= link_to 'Editar', edit_topic_path(topic) %></td>
-        <td><%= link_to 'Eliminar', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Eliminar', topic, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
       </tr>
     <% end %>
     </tbody>
