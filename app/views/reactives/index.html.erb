@@ -11,12 +11,14 @@
 <table class="table table-hover">
   <thead>
     <tr>
+      <th scope="col">Materia</th>
+      <th scope="col">Tema</th>
       <th scope="col">Pregunta</th>
       <th scope="col">Formula</th>
       <th scope="col">Tipo</th>
-      <th scope="col">Tema</th>
-      <th scope="col">Editar</th>
-      <th scope="col">Eliminar</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
       <th colspan="6"></th>
     </tr>
   </thead>
@@ -24,13 +26,14 @@
 <tbody>
 <% @reactives.each do |reactive| %>
   <tr>
+    <td><%= reactive.topic.subject.name_subject %></td>
+    <td><%= reactive.topic.name_topic %></td>
     <td><%= reactive.text %></td>
     <td><%= reactive.formula %></td>
     <td><%= reactive.reactive_type %></td>
-    <td><%= reactive.topic_id %></td>
+    <td><%= link_to 'Mostrar', reactive %></td>
     <td><%= link_to 'Edit', edit_reactive_path(reactive) %></td>
-    <td><%= link_to 'Destroy', reactive, method: :delete,
-                                     data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Eliminar', reactive, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
   </tr>
 <% end %>
 </tbody>
