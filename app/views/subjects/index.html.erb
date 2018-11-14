@@ -3,18 +3,19 @@
 </div>
 
 <div class="d-flex flex-row-reverse mt-4">
-<%= link_to "Inicio", root_path,
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
-<%= link_to "Agregar materia", new_subject_path,
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+<%= link_to "Inicio", root_path, :class => "btn btn-info btn-lg mx-2" %>
+
+<%= link_to "Agregar materia", new_subject_path, :class => "btn btn-info btn-lg mx-2" %>
 </div>
 
-<div class="container text-left p-5">
+<div class="container bg-2 text-center mt-5">
 <table class="table table-hover">
   <thead>
     <tr>
       <th scope="col">Materia</th>
-      <th colspan="4"></th>
+      <th scope="col">Mostrar</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Borrar</th>
     </tr>
   </thead>
 
