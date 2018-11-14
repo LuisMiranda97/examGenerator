@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="development.sqlite3">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="ar_internal_metadata"/>
+    <table id="7" parent="2" name="exams"/>
+    <table id="8" parent="2" name="models"/>
+    <table id="9" parent="2" name="options"/>
+    <table id="10" parent="2" name="reactives"/>
+    <table id="11" parent="2" name="schema_migrations"/>
+    <table id="12" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="13" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="14" parent="2" name="subjects"/>
+    <table id="15" parent="2" name="topics"/>
+    <table id="16" parent="2" name="users"/>
+    <table id="17" parent="2" name="variables"/>
+    <column id="18" parent="6" name="key">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="6" name="value">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="20" parent="6" name="created_at">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="6" name="updated_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="22" parent="6" name="sqlite_autoindex_ar_internal_metadata_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>key</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="6">
+      <ColNames>key</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_ar_internal_metadata_1</UnderlyingIndexName>
+    </key>
+    <column id="24" parent="7" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="7" name="name_exam">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="26" parent="7" name="created_at">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="7" name="updated_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="7" name="subject_id">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <index id="29" parent="7" name="index_exams_on_subject_id">
+      <ColNames>subject_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="30" parent="7">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="8" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="32" parent="8" name="email">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="33" parent="8" name="encrypted_password">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="34" parent="8" name="reset_password_token">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="35" parent="8" name="reset_password_sent_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="36" parent="8" name="remember_created_at">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="37" parent="8" name="created_at">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="8" name="updated_at">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="39" parent="8" name="index_models_on_email">
+      <ColNames>email</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="40" parent="8" name="index_models_on_reset_password_token">
+      <ColNames>reset_password_token</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="8">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="42" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="9" name="isAnswer">
+      <Position>2</Position>
+      <DataType>boolean|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="44" parent="9" name="answer">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="45" parent="9" name="created_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="9" name="updated_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="9" name="reactive_id">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <index id="48" parent="9" name="index_options_on_reactive_id">
+      <ColNames>reactive_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="49" parent="9">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="10" name="text">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="52" parent="10" name="reactive_type">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="53" parent="10" name="formula">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="54" parent="10" name="topic_id">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="55" parent="10" name="index_reactives_on_topic_id">
+      <ColNames>topic_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="56" parent="10">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="11" name="version">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="58" parent="11" name="sqlite_autoindex_schema_migrations_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>version</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="59" parent="11">
+      <ColNames>version</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_schema_migrations_1</UnderlyingIndexName>
+    </key>
+    <column id="60" parent="12" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="61" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="62" parent="12" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="63" parent="12" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="64" parent="12" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="65" parent="13" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="66" parent="13" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="67" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="14" name="name_subject">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="69" parent="14" name="created_at">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="14" name="updated_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="71" parent="14">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="72" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="15" name="name_topic">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="74" parent="15" name="created_at">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="15" name="updated_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="15" name="subject_id">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <index id="77" parent="15" name="index_topics_on_subject_id">
+      <ColNames>subject_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="78" parent="15">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="16" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="81" parent="16" name="email">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="82" parent="16" name="password">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="83" parent="16" name="created_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="16" name="updated_at">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="16" name="encrypted_password">
+      <Position>7</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="86" parent="16" name="reset_password_token">
+      <Position>8</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="87" parent="16" name="reset_password_sent_at">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="88" parent="16" name="remember_created_at">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="89" parent="16" name="index_users_on_email">
+      <ColNames>email</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="90" parent="16" name="index_users_on_reset_password_token">
+      <ColNames>reset_password_token</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="16">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="92" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="17" name="name_variable">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="94" parent="17" name="minimum">
+      <Position>3</Position>
+      <DataType>decimal|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="95" parent="17" name="maximum">
+      <Position>4</Position>
+      <DataType>decimal|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="96" parent="17" name="created_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="17" name="updated_at">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="17" name="reactive_id">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <index id="99" parent="17" name="index_variables_on_reactive_id">
+      <ColNames>reactive_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="100" parent="17">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

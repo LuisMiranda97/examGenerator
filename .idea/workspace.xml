@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16488022-e838-4306-8422-3418b55d6f57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1921180304">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="DATABASE/4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9" value="1" />
+          <entry key="DATABASE/547e1cb8-e6bc-4111-96ef-132d046e91e8" value="2" />
+          <entry key="GemDependency/#examGenerator" value="1" />
+          <entry key="RailsDependency/Exam" value="2" />
+          <entry key="ar_internal_metadata" value="1" />
+          <entry key="erb" value="1" />
+          <entry key="rb" value="3" />
+          <entry key="sql" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="RHTML" value="1" />
+          <entry key="Ruby" value="3" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.actions.runAnything" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9</OriginalElement>
+              <nodes>
+                <node x="657.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.schema_migrations</node>
+                <node x="0.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.topics</node>
+                <node x="469.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.reactives</node>
+                <node x="463.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.sqlite_sequence</node>
+                <node x="0.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.subjects</node>
+                <node x="226.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.exams</node>
+                <node x="0.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.variables</node>
+                <node x="0.0" y="0.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.users</node>
+                <node x="310.0" y="0.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.models</node>
+                <node x="452.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.sqlite_master</node>
+                <node x="237.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.ar_internal_metadata</node>
+                <node x="243.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.options</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.5667060212514758" x="516.815625" y="577.6062499999999" />
+              <SelectedNodes>
+                <node>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.reactives</node>
+                <node>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.variables</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: examGenerator">
+    <configuration name="Development: examGenerator" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="examGenerator" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: examGenerator" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="examGenerator" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: examGenerator" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="examGenerator" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: examGenerator" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="examGenerator" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: examGenerator" />
+      <item itemvalue="Rake.spec: examGenerator" />
+      <item itemvalue="Rails.Production: examGenerator" />
+      <item itemvalue="Rails.Development: examGenerator" />
+    </list>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16488022-e838-4306-8422-3418b55d6f57" name="Default Changelist" comment="" />
+      <created>1541881287349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541881287349</updated>
+      <workItem from="1541881289946" duration="1066000" />
+      <workItem from="1541883066104" duration="1728000" />
+      <workItem from="1541888663083" duration="2121000" />
+      <workItem from="1541891019164" duration="431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5346000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32914925" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.3111588" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://GemDependency/#examGenerator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>GemDependency</ID>
+          <OriginalElement>#examGenerator</OriginalElement>
+          <nodes>
+            <node x="" y="">warden</node>
+            <node x="" y="">responders</node>
+            <node x="" y="">jbuilder</node>
+            <node x="" y="">sass-listen</node>
+            <node x="" y="">activejob</node>
+            <node x="" y="">sass</node>
+            <node x="" y="">puma</node>
+            <node x="" y="">tzinfo</node>
+            <node x="" y="">turbolinks</node>
+            <node x="" y="">rubyzip</node>
+            <node x="" y="">capybara</node>
+            <node x="" y="">mail</node>
+            <node x="" y="">turbolinks-source</node>
+            <node x="" y="">execjs</node>
+            <node x="" y="">railties</node>
+            <node x="" y="">popper_js</node>
+            <node x="" y="">bcrypt</node>
+            <node x="" y="">autoprefixer-rails</node>
+            <node x="" y="">nokogiri</node>
+            <node x="" y="">jquery-rails</node>
+            <node x="" y="">bindex</node>
+            <node x="" y="">sprockets</node>
+            <node x="" y="">rails-html-sanitizer</node>
+            <node x="" y="">web-console</node>
+            <node x="" y="">addressable</node>
+            <node x="" y="">uglifier</node>
+            <node x="" y="">erubi</node>
+            <node x="" y="">actionpack</node>
+            <node x="" y="">#examGenerator</node>
+            <node x="" y="">minitest</node>
+            <node x="" y="">spring-watcher-listen</node>
+            <node x="" y="">rake</node>
+            <node x="" y="">ruby-graphviz</node>
+            <node x="" y="">coffee-rails</node>
+            <node x="" y="">devise</node>
+            <node x="" y="">multi_json</node>
+            <node x="" y="">activemodel</node>
+            <node x="" y="">websocket-extensions</node>
+            <node x="" y="">tilt</node>
+            <node x="" y="">activerecord</node>
+            <node x="" y="">concurrent-ruby</node>
+            <node x="" y="">rack</node>
+            <node x="" y="">globalid</node>
+            <node x="" y="">ffi</node>
+            <node x="" y="">crass</node>
+            <node x="" y="">actionmailer</node>
+            <node x="" y="">choice</node>
+            <node x="" y="">sqlite3</node>
+            <node x="" y="">thor</node>
+            <node x="" y="">loofah</node>
+            <node x="" y="">rack-test</node>
+            <node x="" y="">simple_form</node>
+            <node x="" y="">i18n</node>
+            <node x="" y="">actioncable</node>
+            <node x="" y="">rb-fsevent</node>
+            <node x="" y="">method_source</node>
+            <node x="" y="">orm_adapter</node>
+            <node x="" y="">sprockets-rails</node>
+            <node x="" y="">websocket-driver</node>
+            <node x="" y="">sass-rails</node>
+            <node x="" y="">spring</node>
+            <node x="" y="">activesupport</node>
+            <node x="" y="">public_suffix</node>
+            <node x="" y="">xpath</node>
+            <node x="" y="">childprocess</node>
+            <node x="" y="">thread_safe</node>
+            <node x="" y="">rails-erd</node>
+            <node x="" y="">mini_mime</node>
+            <node x="" y="">byebug</node>
+            <node x="" y="">coffee-script-source</node>
+            <node x="" y="">bootstrap</node>
+            <node x="" y="">ruby_dep</node>
+            <node x="" y="">selenium-webdriver</node>
+            <node x="" y="">arel</node>
+            <node x="" y="">rails</node>
+            <node x="" y="">coffee-script</node>
+            <node x="" y="">actionview</node>
+            <node x="" y="">mini_portile2</node>
+            <node x="" y="">builder</node>
+            <node x="" y="">nio4r</node>
+            <node x="" y="">rb-inotify</node>
+            <node x="" y="">rails-dom-testing</node>
+            <node x="" y="">listen</node>
+            <node x="" y="">bundler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.16763438846225884" x="2660.0" y="785.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/reactives_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" lean-forward="true" selection-start-column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/Exam">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>Exam</OriginalElement>
+          <nodes>
+            <node x="" y="">Subject</node>
+            <node x="" y="">User</node>
+            <node x="" y="">Topic</node>
+            <node x="" y="">Reactive</node>
+            <node x="" y="">Option</node>
+            <node x="" y="">Variable</node>
+            <node x="" y="">ApplicationRecord</node>
+            <node x="" y="">Model</node>
+            <node x="" y="">Exam</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9767358625626341" x="916.0" y="1123.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+            <Category>System DB fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/547e1cb8-e6bc-4111-96ef-132d046e91e8">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>547e1cb8-e6bc-4111-96ef-132d046e91e8</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="365.0" y="190.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/547e1cb8-e6bc-4111-96ef-132d046e91e8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9/schema/main/table/ar_internal_metadata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DATABASE/4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9</OriginalElement>
+          <nodes>
+            <node x="657.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.schema_migrations</node>
+            <node x="0.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.topics</node>
+            <node x="469.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.reactives</node>
+            <node x="463.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.sqlite_sequence</node>
+            <node x="0.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.subjects</node>
+            <node x="226.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.exams</node>
+            <node x="0.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.variables</node>
+            <node x="0.0" y="0.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.users</node>
+            <node x="310.0" y="0.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.models</node>
+            <node x="452.0" y="524.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.sqlite_master</node>
+            <node x="237.0" y="709.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.ar_internal_metadata</node>
+            <node x="243.0" y="295.0">4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.options</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5667060212514758" x="516.815625" y="577.6062499999999" />
+          <SelectedNodes>
+            <node>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.reactives</node>
+            <node>4d1d8d32-2665-4ba0-a9fc-3495b12e8ae9.TABLE:main.variables</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
