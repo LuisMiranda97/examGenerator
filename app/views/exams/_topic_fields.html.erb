@@ -1,5 +1,6 @@
 <tr class="nested-fields">
     <td><%= f.association :subject, collection: Topic.all, label_method: :name_topic, label: "Tema", placeholder: 'Tema', error: 'El tema es obligatoria' %></td>
     <td><%= f.input :name_topic, label: "Numero de reactivos" %></td>
+    <td><%= f.input :name_topic, label: "Ponderacion" %></td>
     <td><%= link_to_remove_association "Eliminar tema", f, class: 'btn btn-info btn-md mx-2 btn-1' %></td>
 </tr>
