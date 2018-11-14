@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :exams
+  resources :exams do
+    get :create_pdf, on: :member
+  end
   resources :reactives
     resources :subjects
   resources :topics

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exam: one
+  topic: one
+  num_of_reactives: 1
+  score: 1
+
+two:
+  exam: two
+  topic: two
+  num_of_reactives: 1
+  score: 1

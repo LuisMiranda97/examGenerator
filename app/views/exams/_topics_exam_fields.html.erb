@@ -1,0 +1,7 @@
+<tr class="nested-fields">
+    <% f.hidden_field :exam, value: @exam %>
+    <td><%= f.association :topic, collection: Topic.all, label_method: :name_topic, label: "Tema", placeholder: 'Tema', error: 'El tema es obligatoria' %></td>
+    <td><%= f.input :num_of_reactives, label: "Numero de reactivos" %></td>
+    <td><%= f.input :score, label: "Ponderacion" %></td>
+    <td><%= link_to_remove_association "Eliminar tema", f, class: 'btn btn-info btn-md mx-2 btn-1' %></td>
+</tr>

@@ -1,6 +1,6 @@
 class ExamsController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_exam, only: [:show, :edit, :update, :destroy]
+  before_action :set_exam, only: [:show, :edit, :update, :destroy, :create_pdf]
 
   # GET /exams
   # GET /exams.json
@@ -38,6 +38,10 @@ class ExamsController < ApplicationController
     end
   end
 
+  def create_pdf
+    @reactives = @exam.create_reactives
+  end
+
   # PATCH/PUT /exams/1
   # PATCH/PUT /exams/1.json
   def update
@@ -70,6 +74,6 @@ class ExamsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def exam_params
-      params.require(:exam).permit(:subject_id, :name_exam, topics_attributes: Topic.attribute_names.map(&:to_sym).push(:_destroy))
+      params.require(:exam).permit(:subject_id, :name_exam, topics_exam_attributes: TopicsExam.attribute_names.map(&:to_sym).push(:_destroy))
     end
 end

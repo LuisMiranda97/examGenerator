@@ -72,10 +72,14 @@ class ReactivesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def reactive_params
-      params.require(:reactive).permit(:text, :reactive_type, :formula, :topic_id, options_attributes: option_attributes)
+      params.require(:reactive).permit(:text, :reactive_type, :formula, :topic_id, options_attributes: option_attributes, variables_attributes: variable_attributes)
     end
 
     def option_attributes
       [:id, :answer, :isAnswer]
+    end
+
+    def variable_attributes
+      [:id, :name_variable, :minimum, :maximum]
     end
 end
