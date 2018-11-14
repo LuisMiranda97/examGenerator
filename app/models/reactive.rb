@@ -6,4 +6,5 @@ class Reactive < ApplicationRecord
 	enum reactive_types: [:static, :dynamic]
 
 	accepts_nested_attributes_for :options, update_only: true
+	accepts_nested_attributes_for :variables, update_only: true
 end

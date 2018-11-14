@@ -6,12 +6,20 @@
   <div class="row justify-content-center">
     <%= f.collection_radio_buttons :reactive_type, Reactive.reactive_types, :second, :first %>
   </div>
-  <div row>
-    <h3>Respuestas</h3>
-    <br>
-    <%= f.simple_fields_for(:options) do |option| %>
-      <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
-      <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
+  <div id="static-answers">
+    <div row>
+      <h3>Respuestas</h3>
+      <br>
+      <%= f.simple_fields_for(:options) do |option| %>
+        <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
+        <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
+      <% end %>
+    </div>
+  </div>
+  <div id="dynamic-answers" style="visibility: hidden; display: none;">
+    <%= f.simple_fields_for(:variables) do |variable| %>
+      <%= variable.input :minimum, label: "Minimo", error: 'El campo es obligatoria' %>
+      <%= variable.input :maximum, label: "Maximo", error: 'El campo es obligatoria' %>
     <% end %>
   </div>
   <div class="form-actions">

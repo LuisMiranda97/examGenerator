@@ -17,6 +17,7 @@ class ReactivesController < ApplicationController
   def new
     @reactive = Reactive.new
     4.times { @reactive.options.build }
+    4.times { @reactive.variables.build }
   end
 
   # GET /reactives/1/edit
