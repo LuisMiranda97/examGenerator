@@ -3,28 +3,17 @@
 </div>
 
 <div class="d-flex flex-row-reverse mt-4">
-<%= link_to "Inicio", root_path,
-      :class => "btn btn-info btn-lg mx-2", :method => :get %>
+  <%= link_to "Inicio", root_path, :class => "btn btn-info btn-lg mx-2" %>
+
+  <%= link_to "Mis Reactivos", reactives_path, :class => "btn btn-info btn-lg mx-2" %>
 </div>
 
-<div class="container bg-2 text-center mt-5">
+<div class="container bg-2 mt-5">
   <div class="row">
     <div class="col-sm">
-      <%= simple_form_for @reactive do |f| %>
-        <%= f.association :topic, collection: Topic.all, label_method: :name_topic, label: "Topic", placeholder: 'Topic', error: 'El topic es obligatoria' %>
-        <%= f.input :text, label: "Pregunta", placeholder: 'Contenido de pregunta', error: 'La pregunta es obligatoria' %>
-        <div class="row justify-content-center">
-          <%= f.collection_radio_buttons :reactive_type, Reactive.reactive_types, :second, :first %>
-        </div>
-        <div row>
-          <h5> Respuestas </h5>
-          <%= f.simple_fields_for(:options) do |option| %>
-            <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
-            <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
-          <% end %>
-        </div>
-        <%= f.button :submit, class: "btn btn-info btn-lg mx-2"  %>
-      <% end %>
+      <%= render 'form', reactive: @reactive %>
     </div>  
   </div>
 </div>
+
+<br>
