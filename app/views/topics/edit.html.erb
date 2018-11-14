@@ -8,6 +8,10 @@
   <%= link_to 'Atras', topics_path, :class => "btn btn-info btn-lg mx-2"%>
 </div>
 
-<div class="container bg-2 text-center mt-5">
-  <%= render 'form', topic: @topic %>
+<div class="container bg-2 mt-5">
+  <div class="row">
+    <div class="col-sm">
+      <%= render 'form', topic: @topic %>
+    </div>  
+  </div>
 </div>

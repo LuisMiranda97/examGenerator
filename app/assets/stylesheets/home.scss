@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 .bg-1 { 
     background-color: #525252;
     color: #ffffff;
@@ -26,14 +36,21 @@
     background-color: #80CBC4
 }
 .container-fluid-1 {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 50px;
+    position: relative;
+    top: -22px;
 }
 
 .container-fluid-2 {
     padding-top: 100px;
     padding-bottom: 200px;
+}
+
+.alert {
+    padding: 0;
+    border: 0;
 }
 
 body {
@@ -43,4 +60,6 @@ body {
     background-color: #EFEFEF;
 }
 
-p {font-size: 16px;}
+p {
+    font-size: 16px;
+}

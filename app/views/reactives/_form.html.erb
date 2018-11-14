@@ -1,0 +1,20 @@
+<%= simple_form_for @reactive do |f| %>
+  <div class="form-inputs">
+    <%= f.association :topic, collection: Topic.all, label_method: :name_topic, label: "Tema", placeholder: 'Tema', error: 'El tema es obligatoria' %>
+    <%= f.input :text, label: "Pregunta", placeholder: 'Contenido de pregunta', error: 'La pregunta es obligatoria' %>
+  </div>
+  <div class="row justify-content-center">
+    <%= f.collection_radio_buttons :reactive_type, Reactive.reactive_types, :second, :first %>
+  </div>
+  <div row>
+    <h3>Respuestas</h3>
+    <br>
+    <%= f.simple_fields_for(:options) do |option| %>
+      <%= option.input :isAnswer, label: "Correcta", error: 'El campo es obligatoria' %>
+      <%= option.input :answer, label: false, placeholder: "Respuesta", error: 'El campo es obligatoria' %>
+    <% end %>
+  </div>
+  <div class="form-actions">
+    <%= f.button :submit, "Crear Reactivo", class: "btn btn-info btn-lg mx-2"  %>
+  </div>
+<% end %>
